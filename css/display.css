@@ -1,0 +1,20 @@
+.criteria-grid > .row {
+    margin-inline: 0;
+}
+
+.criteria-grid > .row > [class*="col-"] {
+    padding: var(--bs-table-cell-padding-y) var(--bs-table-cell-padding-x);
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-theme-fg, var(--bs-table-color))));
+    background-color: var(--bs-theme-bg-subtle, var(--bs-table-bg));
+    border-bottom: var(--bs-table-border-width) solid var(--bs-theme-border, var(--bs-table-border-color));
+}
+
+.criteria-grid-header {
+    font-weight: 700;
+}
+
+.criteria-grid-striped > * {
+    --bs-table-color-type: var(--bs-theme-fg, var(--bs-table-striped-color));
+    --bs-table-bg-type: color-mix(in srgb, var(--bs-theme-fg, var(--bs-table-color)) var(--bs-table-striped-bg-factor), transparent);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-theme-bg-subtle, var(--bs-table-accent-bg))));
+}
