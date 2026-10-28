@@ -6,6 +6,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-color: rgb(209, 242, 255);
+    color: #000;
 }
 main {
     flex: 1;
@@ -23,4 +25,19 @@ h1 {
 button {
     color: sky;
     background-color: rgb(2, 141, 255);
+}
+
+table {
+    background-color: rgb(209, 242, 255);
+    color: black;
+}
+
+th {
+    background-color: rgb(209, 242, 255);
+    color: black;
+}
+
+td {
+    background-color: rgb(209, 242, 255);
+    color: black;
 }
